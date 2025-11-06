@@ -1,0 +1,19 @@
+{
+  "name": "ai-agent",
+  "version": "1.0.0",
+  "description": "making a chat bot",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tharanga \"Teej\" Kasthuriarachchi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^6.8.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.0.3"
+  }
+}
